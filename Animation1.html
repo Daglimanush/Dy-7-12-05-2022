@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+      .A{
+          width: 20%;
+          height: 200px;
+          background-color: skyblue;
+          animation-name: manush;
+          animation-iteration-count: 0.3s;
+          position: relative;
+          animation-duration: 5s;
+          text-align: center;
+      }
+      @keyframes manush
+      {
+        0%{background-color: aqua;top: 0px;left: 0px;}
+        25%{background-color: antiquewhite;top: 0px; left: 300px;}
+        50%{background-color: rebeccapurple;top: 300px;}
+        75%{background-color: brown;right: 300 ;}
+        100%{background-color: ivory;bottom: 0px;}
+      }
+    </style>
+</head>
+<body>
+    <div class="A">Animation</div>
+</body>
+</html>
